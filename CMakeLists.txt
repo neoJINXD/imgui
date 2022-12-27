@@ -22,6 +22,7 @@ set(HEADERS_CXX_FILES
     ${SOURCE_DIR}/imstb_rectpack.h
     ${SOURCE_DIR}/imstb_textedit.h
     ${SOURCE_DIR}/imstb_truetype.h
+    ${SOURCE_DIR}/misc/cpp/imgui_stdlib.h
 )
 
 set(SOURCES_CXX_FILES 
@@ -30,6 +31,7 @@ set(SOURCES_CXX_FILES
     ${SOURCE_DIR}/imgui_widgets.cpp
     ${SOURCE_DIR}/imgui_demo.cpp
     ${SOURCE_DIR}/imgui_tables.cpp
+    ${SOURCE_DIR}/misc/cpp/imgui_stdlib.cpp
 )
 
 file(GLOB FONTS_FILES ${FONTS_DIR}/*.ttf)
